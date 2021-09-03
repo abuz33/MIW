@@ -35,16 +35,16 @@ public class Main {
 
             if (antwoord.equals("j") || antwoord.equals("J")) {
                 Random random = new Random();
-                int breedte = random.nextInt(10);
-                int lengte = random.nextInt(10);
+                int basis = random.nextInt(10);
+                int hoogte = random.nextInt(10);
 
-                System.out.println(String.format("Bereken de oppervlakte van een driehoek met basis %s en hoogte %s:", breedte, lengte));
+                System.out.println(String.format("Bereken de oppervlakte van een driehoek met basis %s en hoogte %s:", basis, hoogte));
                 int oppervlaakte = scanner.nextInt();
-                if (oppervlaakte == breedte * lengte / 2) {
+                if (oppervlaakte == basis * hoogte / 2) {
                     System.out.println("Jouw antwoord is goed!");
                 } else {
                     System.out.println("Jouw antwoord is fout!");
-                    System.out.println("Het juiste antwoord is" + (breedte * lengte / 2) + ".");
+                    System.out.println("Het juiste antwoord is" + (basis * hoogte / 2) + ".");
                 }
             } else if (antwoord.equals("n") || antwoord.equals("N")){
                 System.out.println("Het programma wordt nu gestopt.");
