@@ -31,6 +31,7 @@ public class Main {
         double kcal;
         double gemiddeldKcal;
         int genoegOfNiet = 0;
+
         String message = ANSI_RED_BACKGROUND + "Je hebt te weinig stappen gelopen op: ";
 
         String[] dagen = {"maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"};
@@ -45,7 +46,7 @@ public class Main {
         for (int i = 0; i < stappen.length; i++) {
             stappen[i] = vraagGetal(scanner, "      " + dagen[i] + ": ");
             if (stappen[i] >= minimalAantalStap) genoegOfNiet++;
-            if (i == stappen.length - 1) message += dagen[i]+". ";
+            if (i == stappen.length - 1) message += dagen[i] + ". ";
             else message += dagen[i] + ", ";
             totaal += stappen[i];
         }
@@ -57,7 +58,7 @@ public class Main {
         message += ANSI_RESET;
         System.out.printf(ANSI_GREEN + "Je hebt deze week in totaal %s stappen gelopen \n" + ANSI_RESET, totaal);
         System.out.printf(ANSI_BLUE + "Je hebt hiermee %.2f kCal verbrand. \n" + ANSI_RESET, kcal);
-        System.out.printf(ANSI_GREEN + "Je hebt per dag gemiddeld %.2f stappen gelopen \n" + ANSI_RESET, gemiddeldStappen);
+        System.out.printf((gemiddeldStappen >= minimalAantalStap ? ANSI_GREEN : ANSI_RED) + "Je hebt per dag gemiddeld %.2f stappen gelopen \n" + ANSI_RESET, gemiddeldStappen);
         System.out.printf(ANSI_BLUE + "Je hebt hiermee per dag gemiddeld %.2f kCal verbrand. \n" + ANSI_RESET, gemiddeldKcal);
         System.out.println(message);
 
