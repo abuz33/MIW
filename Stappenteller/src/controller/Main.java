@@ -21,8 +21,13 @@ public class Main {
     public static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws Exception {
+//        MySQLAccess dao = new MySQLAccess();
+//        dao.readDataBase();
         // write your code here
+
+
         Scanner scanner = new Scanner(System.in);
         int[] stappen = new int[7];
         int minimalAantalStap;
@@ -46,8 +51,10 @@ public class Main {
         for (int i = 0; i < stappen.length; i++) {
             stappen[i] = vraagGetal(scanner, "      " + dagen[i] + ": ");
             if (stappen[i] >= minimalAantalStap) genoegOfNiet++;
-            if (i == stappen.length - 1) message += dagen[i] + ". ";
-            else message += dagen[i] + ", ";
+            else {
+                if (i == stappen.length - 1) message += dagen[i] + ". ";
+                else message += dagen[i] + ", ";
+            }
             totaal += stappen[i];
         }
 
@@ -86,6 +93,4 @@ public class Main {
     private static double berekenenGemiddeld(int totaal) {
         return 1.0 * totaal / 7;
     }
-
-
 }
