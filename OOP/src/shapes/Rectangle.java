@@ -1,10 +1,8 @@
-package controller;
+package shapes;
 
-public class Rectangle {
+public class Rectangle extends Point {
     double lengte;
     double breedte;
-    int leftTopX;
-    int leftTopY;
 
     public Rectangle() {
         this(0, 0);
@@ -17,8 +15,8 @@ public class Rectangle {
     public Rectangle(int leftTopX, int leftTopY,double lengte, double breedte) {
         this.lengte = lengte;
         this.breedte = breedte;
-        this.leftTopX = leftTopX;
-        this.leftTopY = leftTopY;
+        this.X = leftTopX;
+        this.Y = leftTopY;
     }
 
     public double oppervlakte() {
@@ -34,8 +32,8 @@ public class Rectangle {
         return "Rectangle{" +
                 "lengte=" + lengte +
                 ", breedte=" + breedte +
-                ", leftTopX=" + leftTopX +
-                ", leftTopY=" + leftTopY +
+                ", leftTopX=" + X +
+                ", leftTopY=" + Y +
                 '}';
     }
 
