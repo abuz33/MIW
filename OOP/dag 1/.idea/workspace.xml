@@ -2,36 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17675233-1206-4c48-aa05-04a3ac02d41e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lunch/src/controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lunch/src/model/Gerecht.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lunch/src/model/Lunch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lunch/src/model/Persoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/KofferslotLauncher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/MeetKundeLauncher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/VoetbalScoresLauncher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/kofferslot/Kofferslot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/model/Cirkel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/shapes/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/shapes/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/shapes/square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/OOP/wedstrijd/Wedstrijd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Voetbalscores/Wedstrijd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Voetbalscores/Wedstrijd2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/KofferslotLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/MeetKundeLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/controller/VoetbalScoresLauncher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/kofferslot/Kofferslot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/model/Cirkel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/model/Lunch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/model/Team.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/shapes/Point.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/shapes/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/shapes/square.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dag1/controller/VoetbalScoresLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dag1/controller/VoetbalScoresLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dag1/model/Voetbalscores/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dag1/model/Voetbalscores/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/VoetbalScoresLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/VoetbalScoresLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Voetbalscores/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Voetbalscores/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +31,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.KofferslotLauncher">
+  <component name="RunManager" selected="Application.VoetbalScoresLauncher">
     <configuration name="KofferslotLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="16" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -103,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="dag1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="dag1" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.KofferslotLauncher" />
       <item itemvalue="Application.Main" />
@@ -123,8 +88,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KofferslotLauncher" />
         <item itemvalue="Application.VoetbalScoresLauncher" />
+        <item itemvalue="Application.KofferslotLauncher" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -140,6 +105,7 @@
       <workItem from="1632483888285" duration="2003000" />
       <workItem from="1632486040331" duration="770000" />
       <workItem from="1632486870581" duration="449000" />
+      <workItem from="1632487930921" duration="2222000" />
     </task>
     <servers />
   </component>
@@ -160,5 +126,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/VoetbalScoresLauncher.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

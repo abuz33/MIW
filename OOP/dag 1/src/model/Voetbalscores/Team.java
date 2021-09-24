@@ -15,7 +15,10 @@ public class Team {
         this(teamNaam, 0, 0, 0);
     }
 
-    public Team(String teamNaam, int totaalWedstrijdPunten, int totaalVoorDoelpunten, int totaalTegenDoelpunten) {
+    public Team(String teamNaam,
+                int totaalWedstrijdPunten,
+                int totaalVoorDoelpunten,
+                int totaalTegenDoelpunten) {
         this.teamNaam = teamNaam;
         this.totaalWedstrijdPunten = totaalWedstrijdPunten;
         this.totaalVoorDoelpunten = totaalVoorDoelpunten;
@@ -55,10 +58,12 @@ public class Team {
     }
 
     public int getDoelSaldo() {
-        return -1;
+        int diff = this.totaalVoorDoelpunten - this.totaalTegenDoelpunten;
+        return diff;
     }
 
     public void printStatusTeam() {
-        System.out.println();
+        System.out.printf("The team NAC has %s game point(s) and a goal difference of %s",
+                this.totaalWedstrijdPunten, getDoelSaldo());
     }
 }
