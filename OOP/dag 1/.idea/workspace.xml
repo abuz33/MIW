@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17675233-1206-4c48-aa05-04a3ac02d41e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lunch/src/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lunch/src/model/Gerecht.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lunch/src/model/Lunch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lunch/src/model/Persoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/KofferslotLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/MeetKundeLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/controller/VoetbalScoresLauncher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/kofferslot/Kofferslot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/model/Cirkel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/shapes/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/shapes/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/shapes/square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/OOP/wedstrijd/Wedstrijd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Voetbalscores/Wedstrijd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Voetbalscores/Wedstrijd2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/KofferslotLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/MeetKundeLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/controller/VoetbalScoresLauncher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/kofferslot/Kofferslot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/model/Cirkel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/model/Lunch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/model/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/shapes/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/shapes/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/shapes/square.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1yaJhe3pqcCw4G0G73e8iKRNWVV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.KofferslotLauncher">
+    <configuration name="KofferslotLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="controller.KofferslotLauncher" />
+      <module name="dag1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="16" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="controller.Main" />
+      <module name="dag1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoetbalScoresLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.VoetbalScoresLauncher" />
+      <module name="dag1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dag1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dag1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.KofferslotLauncher" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.VoetbalScoresLauncher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.KofferslotLauncher" />
+        <item itemvalue="Application.VoetbalScoresLauncher" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17675233-1206-4c48-aa05-04a3ac02d41e" name="Changes" comment="" />
+      <created>1632483886303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632483886303</updated>
+      <workItem from="1632483888285" duration="2003000" />
+      <workItem from="1632486040331" duration="770000" />
+      <workItem from="1632486870581" duration="449000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
