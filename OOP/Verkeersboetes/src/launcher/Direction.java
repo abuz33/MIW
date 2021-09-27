@@ -1,2 +1,6 @@
-package launcher;public class Direction {
+package launcher;
+
+public class Direction {
 }
+
+
