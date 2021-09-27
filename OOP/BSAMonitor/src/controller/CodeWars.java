@@ -4,12 +4,9 @@ import java.util.Arrays;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class Main {
+public class CodeWars {
     public static void main(String[] args) {
-        System.out.println(digital_root(494949499));
-        System.out.println(findIt(new int[]{20, 1, -1, 2, -2, 3, 3, 5, 5, 1, 2, 4, 20, 4, -1, -2, 5}));
 
-        System.out.println(revRot("733049910872815764", 5) == "330479108928157");
     }
 
     public static long digital_root(long n) {
