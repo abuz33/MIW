@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17675233-1206-4c48-aa05-04a3ac02d41e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/Auto/Auto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Auto/Vervoermiddel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Auto/Voertuig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bedrijf/src/model/Persoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/RechthoekLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/Unchecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/exceptions/NullOfNegatiefException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/shapes/Rechthoek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bedrijf/out/production/bedrijf/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bedrijf/out/production/bedrijf/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bedrijf/src/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bedrijf/src/controller/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ArrayListOpdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ArrayListOpdracht.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +55,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model.exceptions" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/model/Auto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListOpdracht">
+  <component name="RunManager" selected="Application.RechthoekLauncher">
     <configuration name="ArrayListOpdracht" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.ArrayListOpdracht" />
       <module name="dag1" />
@@ -85,14 +91,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="16" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="controller.Main" />
+    <configuration name="RechthoekLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.RechthoekLauncher" />
       <module name="dag1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unchecked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.Unchecked" />
+      <module name="dag1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,16 +132,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.KofferslotLauncher" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.VoetbalScoresLauncher" />
       <item itemvalue="Application.ArrayListOpdracht" />
+      <item itemvalue="Application.Unchecked" />
+      <item itemvalue="Application.RechthoekLauncher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RechthoekLauncher" />
+        <item itemvalue="Application.Unchecked" />
         <item itemvalue="Application.ArrayListOpdracht" />
         <item itemvalue="Application.VoetbalScoresLauncher" />
         <item itemvalue="Application.KofferslotLauncher" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +160,7 @@
       <workItem from="1632486870581" duration="449000" />
       <workItem from="1632487930921" duration="2222000" />
       <workItem from="1632909168348" duration="2279000" />
+      <workItem from="1633073133429" duration="3474000" />
     </task>
     <servers />
   </component>
