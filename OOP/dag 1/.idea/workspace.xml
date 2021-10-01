@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17675233-1206-4c48-aa05-04a3ac02d41e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../bedrijf/src/model/Persoon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/RechthoekLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Unchecked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/exceptions/NullOfNegatiefException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/shapes/Rechthoek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bedrijf/src/model/Afdeling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bedrijf/out/production/bedrijf/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bedrijf/out/production/bedrijf/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bedrijf/out/production/bedrijf/model/Persoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bedrijf/out/production/bedrijf/model/Persoon.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bedrijf/src/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bedrijf/src/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bedrijf/src/model/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bedrijf/src/model/Persoon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +158,7 @@
       <workItem from="1632486870581" duration="449000" />
       <workItem from="1632487930921" duration="2222000" />
       <workItem from="1632909168348" duration="2279000" />
-      <workItem from="1633073133429" duration="3474000" />
+      <workItem from="1633073133429" duration="4064000" />
     </task>
     <servers />
   </component>
