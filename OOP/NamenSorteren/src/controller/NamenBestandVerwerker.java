@@ -43,16 +43,16 @@ public class NamenBestandVerwerker {
     }
 
     public static void voegNaamToeAanGesorteerdeLijst(String naam, ArrayList<String> lijst) {
-//        int idx = 0;
-//        while (naam.compareTo(lijst.get(idx)) > 0) {
-//            idx++;
-//            if (idx >= lijst.size()) {
-//                lijst.add(idx, naam);
-//                return;
-//            }
-//        }
-//
-//        lijst.add(idx, naam);
+        // int idx = 0;
+        // while (naam.compareTo(lijst.get(idx)) > 0) {
+        // idx++;
+        //    if (idx >= lijst.size()) {
+        //       lijst.add(idx, naam);
+        //       return;
+        //       }
+        //    }
+        //
+        //    lijst.add(idx, naam);
 
         for (int i = 0; i < lijst.size(); i++) {
             if (naam.compareTo(lijst.get(i)) > 0) continue;

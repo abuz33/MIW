@@ -10,39 +10,33 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PersoonDAO extends AbstractDAO {
-
-
     public PersoonDAO(DBaccess dBaccess) {
         super(dBaccess);
     }
 
-    /**
-     *
-     * "
+    /*"
      * methode zoekt personen gebaseerd op de opgegeven naam
      * @param name
      * @return
      */
-    public List<Persoon> getPersonenByName(String name){
+    public List<Persoon> getPersonenByName(String name) {
         List<Persoon> personen = new ArrayList<>();
         // check inputparameters op SQL injection, throw anders een IllegalArgumentException
-        // TODO
 
         String sql = "SELECT * from PERSOON WHERE name=?";
         // mapping variabele sql velden en java
         try {
             // maak statement object
             setupPreparedStatement(sql);
-            preparedStatement.setString(1,name);
+            preparedStatement.setString(1, name);
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-
         // krijg een statement om uit te voeren van het connectionobject
         try {
-              // voer query uit en ontvang resultaten.
+            // voer query uit en ontvang resultaten.
             ResultSet resultSet = executeSelectStatement();
             //
             while (resultSet.next()) {
@@ -97,8 +91,6 @@ public class PersoonDAO extends AbstractDAO {
         // return
         return personen;
     }
-
-
 
 
 }
