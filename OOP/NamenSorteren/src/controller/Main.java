@@ -17,9 +17,9 @@ public class Main {
         NamenBestandVerwerker.voegNaamToeAanGesorteerdeLijst("Abuzer", sorteerdeNamen);
         NamenBestandVerwerker.voegNaamToeAanGesorteerdeLijst("Ramazan", sorteerdeNamen);
 
-        NamenBestandVerwerker.voegLijstToeAanGesorteerdeLijst(sorteerdeNamen, extraNamen);
+//        NamenBestandVerwerker.voegLijstToeAanGesorteerdeLijst(sorteerdeNamen, extraNamen);
 
-        NamenBestandVerwerker.maakBestandVanLijst(sorteerdeNamen, "9.2 GesorteerdeNamenNieuw.txt");
+//        NamenBestandVerwerker.maakBestandVanLijst(sorteerdeNamen, "9.2 GesorteerdeNamenNieuw.txt");
         for (String n : sorteerdeNamen) {
             System.out.println(n);
         }
