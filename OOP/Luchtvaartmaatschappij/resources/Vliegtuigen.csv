@@ -1,0 +1,20 @@
+Vrachtvliegtuigen
+6912, Boeing 747, 10000
+7114, Boeing 707, 7000
+5089, Fokker F50, 2500
+7116, Boeing 707, 7000
+Personenvliegtuigen
+6933, Boeing 737, 5
+6153, Boeing 707, 6
+5427, Fokker F50, 2
+6427, Boeing 747, 8
+Stoelindeling
+6933, Economy, 178
+6933, First, 34
+6153, Economy, 265
+6153, First, 40
+5427, Economy, 42
+5427, Royal, 6
+6427, Economy, 273
+6427, First, 42
+6427, Royal, 20
