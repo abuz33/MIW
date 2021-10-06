@@ -10,7 +10,7 @@ public class Ingredient {
     }
 
     public int geefCalorieen() {
-        return -1;
+        return winkelProduct.getCalorieenPerGram();
     }
 
     public int geefBereidingstijdInMinuten() {

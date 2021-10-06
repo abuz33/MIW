@@ -1,11 +1,10 @@
 package model;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 
 public class BoodschappenLijst {
-    private ArrayList<WinkelProduct> boodschappen;
+    private ArrayList<WinkelProduct> boodschappen = new ArrayList<>();
 
     public BoodschappenLijst() {
     }
@@ -25,7 +24,14 @@ public class BoodschappenLijst {
         Collections.sort(boodschappen);
 
         for (WinkelProduct p : boodschappen) {
-            System.out.println(p);
+            System.out.println(p.getNaam());
         }
+    }
+
+    @Override
+    public String toString() {
+        return "BoodschappenLijst{" +
+                "boodschappen=" + boodschappen +
+                '}';
     }
 }
