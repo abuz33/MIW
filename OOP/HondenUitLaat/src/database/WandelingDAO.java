@@ -64,7 +64,26 @@ public class WandelingDAO extends AbstractDAO {
     }
 
 
-    public ArrayList<Wandeling> getWandelingByMedewerker(Medewerker mpMedewerker){
+    public ArrayList<Wandeling> getWandelingByMedewerker(Medewerker mpMedewerker) {
+        String sql = "Select chipnr, duur, datum from wandeling where medewerkercode = ?";
+        ArrayList<Wandeling> wands = new ArrayList<>();
+        HondDAO hdao = new HondDAO(db);
+        try {
+            this.setupPreparedStatementWithKey(sql);
 
+            this.preparedStatement.setString(1, mpMedewerker.getMedewerkerNummer());
+
+            ResultSet rs = this.executeSelectStatement();
+            while (rs.next()) {
+                double duur = rs.getDouble("duur");
+                LocalDate date = LocalDate.parse(rs.getString("datum"));
+                Hond walkHond = hdao.getHondById(rs.getString("chipnr"));
+                wands.add(new Wandeling(walkHond, date, duur, mpMedewerker));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return wands;
     }
 }

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>714</x>
+      <y>308</y>
+      <w>280</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>BoodschappenLijst
+--
+-boodschappen: List&lt;WinkelProduct&gt;
+--
++BoodschappenLijst()
++toonBoodschappen(): List&lt;WinkelProduct&gt;
++voegProductToe(product: WinkelProduct):void
++printGesorteerdeLijst(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>343</x>
+      <y>742</y>
+      <w>308</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Vlees
+--
+-aantalStukjes:int
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>42</x>
+      <y>742</y>
+      <w>280</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Groente
+--
+
+
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>658</x>
+      <y>742</y>
+      <w>280</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>Vloeistof
+--
+-volumeInCm3: double
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>714</x>
+      <y>504</y>
+      <w>427</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>WinkelProduct
+--
+-naam: String
+-calorieenPerGram: int
+-verkoopHoeveelheidInGram: int
+--
++WinkelProduct(naam: String, calorieen: int, verkoopHoeveelheid: int)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>175</x>
+      <y>644</y>
+      <w>84</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>469</x>
+      <y>644</y>
+      <w>21</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>532</x>
+      <y>616</y>
+      <w>224</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;300.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>532</x>
+      <y>567</y>
+      <w>196</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>260.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>329</y>
+      <w>252</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>340.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>833</x>
+      <y>434</y>
+      <w>35</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..*</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>294</x>
+      <y>371</y>
+      <w>35</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..*</panel_attributes>
+    <additional_attributes>10.0;200.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>882</x>
+      <y>154</y>
+      <w>147</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+/Comparable/
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1001</x>
+      <y>196</y>
+      <w>21</w>
+      <h>322</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;440.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>91</x>
+      <y>252</y>
+      <w>392</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Recept
+--
+-naam: String
+-ingredienten: List&lt;Ingredient&gt;
+-boodschappenLijst: BoodschappenLijst
+--
++Recept(String naam): ctor
++geefCalorieen(): int
++voegIngredientToe(Ingredient ingredient): void
+-berekenBenodigdeAantalWinkelProducten(Ingredient ingredient): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>147</x>
+      <y>511</y>
+      <w>392</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>/Ingredient/
+--
+-winkelProduct: WinkelProduct
+#hoeveelheidInGram: int
+--
++Ingredient(WinkelProduct winkelProduct, int hoeveelheidInGram)
++geefCalorieen(): int
++geefBereidingstijdInMinuten(): int
++getWinkelProduct(): WinkelProduct
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

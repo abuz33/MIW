@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class MedewerkerDAO extends AbstractDAO {
     private final String INSERT_SQL = "INSERT INTO `UitlaatService`.`Medewerker` (`medewerkercode`,`medewerkernaam`) " +
             "VALUES (?, ?);";
-    private final String GET_SQL = "SELECT * FROM UitlaatService.Medewerker where medewerkercode = \"?\";";
+    private final String GET_SQL = "SELECT * FROM UitlaatService.Medewerker where medewerkercode = ?;";
 
     public MedewerkerDAO(DBaccess dBaccess) {
         super(dBaccess);
@@ -40,7 +40,9 @@ public class MedewerkerDAO extends AbstractDAO {
 
             ResultSet rs = this.executeSelectStatement();
 
-            medewerker = new Medewerker(rs.getString(1), rs.getString(2));
+            if (rs.next()) {
+                medewerker = new Medewerker(rs.getString("medewerkercode"), rs.getString("medewerkernaam"));
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
