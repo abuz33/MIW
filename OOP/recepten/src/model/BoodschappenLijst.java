@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class BoodschappenLijst {
-    private ArrayList<WinkelProduct> boodschappen = new ArrayList<>();
+    private ArrayList<WinkelProduct> boodschappen;
 
     public BoodschappenLijst() {
+        boodschappen = new ArrayList<>();
     }
 
 
