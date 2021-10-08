@@ -24,12 +24,10 @@ public class Move {
                          final int destinationCoordinate) {
             super(board, piece, destinationCoordinate);
         }
-
     }
 
     public static final class AttackMove extends Move {
         final Piece attackedPiece;
-
         public AttackMove(final Board board,
                           final Piece piece,
                           final int destinationCoordinate,
