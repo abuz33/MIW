@@ -6,6 +6,7 @@ import com.chess.engine.pieces.Piece;
 import com.google.common.collect.ImmutableMap;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 public abstract class Tile {
@@ -49,6 +50,11 @@ public abstract class Tile {
         public Piece getPiece() {
             return null;
         }
+
+        @Override
+        public String toString() {
+            return "-";
+        }
     }
 
     public static final class OccupiedTile extends Tile {
@@ -57,6 +63,11 @@ public abstract class Tile {
         public OccupiedTile(int tileCoordinate, final Piece piece) {
             super(tileCoordinate);
             this.piece = piece;
+        }
+
+        @Override
+        public String toString() {
+            return getPiece().getPieceAlliance().isBlack() ? getPiece().toString().toLowerCase(Locale.ROOT) : getPiece().toString();
         }
 
         @Override

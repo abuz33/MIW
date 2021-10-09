@@ -11,8 +11,8 @@ public class BoardUtils {
     public static final boolean[] EIGHTH_COLUMN = initColumn(7);
 
 
-    public static final boolean[] SECOND_ROW = initRow(1);
-    public static final boolean[] SEVENTH_ROW = initRow(6);
+    public static final boolean[] SECOND_ROW = initRow(8);
+    public static final boolean[] SEVENTH_ROW = initRow(48);
 
     public static final int NUM_TILES = 64;
     public static final int NUM_TILES_PER_ROW = 8;
@@ -31,14 +31,14 @@ public class BoardUtils {
         return col;
     }
 
-    private static boolean[] initRow(int columnNumber) {
-        final boolean[] col = new boolean[64];
+    private static boolean[] initRow(int rowNumber) {
+        final boolean[] row = new boolean[64];
         do {
-            col[columnNumber] = true;
-            columnNumber += NUM_TILES_PER_ROW;
-        } while (columnNumber < NUM_TILES);
+            row[rowNumber] = true;
+            rowNumber++;
+        } while (rowNumber % NUM_TILES_PER_ROW != 0);
 
-        return col;
+        return row;
     }
 
 
