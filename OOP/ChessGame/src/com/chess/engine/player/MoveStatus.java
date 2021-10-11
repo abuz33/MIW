@@ -11,7 +11,13 @@ public enum MoveStatus {
             return true;
         }
     },
-    CHECK {
+    ILLEGAL_MOVE {
+        @Override
+        public boolean isDone() {
+            return false;
+        }
+    },
+    LEAVES_PLAYER_IN_CHECK {
         @Override
         public boolean isDone() {
             return false;
@@ -19,5 +25,4 @@ public enum MoveStatus {
     };
 
     public abstract boolean isDone();
-
 }
