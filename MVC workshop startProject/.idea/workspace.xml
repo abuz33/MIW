@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a893e13e-160b-4774-bb90-9fa7dd7d983b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SCQsbd7cVax1kskkUE3tP9sVFF" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28388998" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/view" />
+      <recent name="$PROJECT_DIR$/src/main/java/javadb" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javadb" />
+      <recent name="controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/view/fxml" />
+      <recent name="$PROJECT_DIR$/src/main/java/view/fxml/fxml" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LauncherNoFXML">
+    <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.ApplicationLauncher" />
+      <module name="MVC workshop startProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LauncherNoFXML" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.LauncherNoFXML" />
+      <module name="MVC workshop startProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ApplicationLauncher" />
+      <item itemvalue="Application.LauncherNoFXML" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApplicationLauncher" />
+        <item itemvalue="Application.LauncherNoFXML" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a893e13e-160b-4774-bb90-9fa7dd7d983b" name="Default Changelist" comment="" />
+      <created>1547373094535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547373094535</updated>
+      <workItem from="1547373095754" duration="19169000" />
+      <workItem from="1547564212277" duration="3675000" />
+      <workItem from="1551009062837" duration="1721000" />
+      <workItem from="1563043874601" duration="26904000" />
+      <workItem from="1565426449383" duration="598000" />
+      <workItem from="1565777382435" duration="11623000" />
+      <workItem from="1567166415204" duration="326000" />
+      <workItem from="1570529456329" duration="1960000" />
+      <workItem from="1570883605280" duration="2059000" />
+      <workItem from="1571065307542" duration="1478000" />
+      <workItem from="1571127093702" duration="10972000" />
+      <workItem from="1571578330791" duration="2956000" />
+      <workItem from="1571921252325" duration="2909000" />
+      <workItem from="1576241479727" duration="4014000" />
+      <workItem from="1576584543278" duration="13319000" />
+      <workItem from="1584561704854" duration="4933000" />
+      <workItem from="1584647042711" duration="10912000" />
+      <workItem from="1584886731697" duration="255000" />
+      <workItem from="1584887024224" duration="52000" />
+      <workItem from="1585142861090" duration="280000" />
+      <workItem from="1591364756997" duration="621000" />
+      <workItem from="1591365436189" duration="367000" />
+      <workItem from="1591365933613" duration="131000" />
+      <workItem from="1591366073327" duration="36000" />
+      <workItem from="1591366117121" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1951" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591366101529">
+      <screen x="1440" y="-9" width="1920" height="1177" />
+    </state>
+    <state x="1951" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591366101529" />
+    <state x="2578" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591364976253">
+      <screen x="1440" y="-9" width="1920" height="1177" />
+    </state>
+    <state x="2578" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591364976253" />
+    <state width="1649" height="3" key="GridCell.Tab.0.bottom" timestamp="1591365379257">
+      <screen x="1440" y="-9" width="1920" height="1177" />
+    </state>
+    <state width="1649" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379257" />
+    <state width="1649" height="3" key="GridCell.Tab.0.center" timestamp="1591365379256">
+      <screen x="1440" y="-9" width="1920" height="1177" />
+    </state>
+    <state width="1649" height="3" key="GridCell.Tab.0.center/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379256" />
+    <state width="1649" height="3" key="GridCell.Tab.0.left" timestamp="1591365379255">
+      <screen x="1440" y="-9" width="1920" height="1177" />
+    </state>
+    <state width="1649" height="3" key="GridCell.Tab.0.left/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379255" />
+    <state width="1649" height="3" key="GridCell.Tab.0.right" timestamp="1591365379256">
+      <screen x="1440" y="-9" width="1920" height="1177" />
+    </state>
+    <state width="1649" height="3" key="GridCell.Tab.0.right/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379256" />
+    <state x="1999" y="147" key="SettingsEditor" timestamp="1591365198819">
+      <screen x="1440" y="-9" width="1920" height="1177" />
+    </state>
+    <state x="1999" y="147" key="SettingsEditor/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365198819" />
+  </component>
+</project>
