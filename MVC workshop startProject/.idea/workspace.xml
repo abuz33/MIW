@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a893e13e-160b-4774-bb90-9fa7dd7d983b" name="Default Changelist" comment="" />
+    <list default="true" id="a893e13e-160b-4774-bb90-9fa7dd7d983b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_base_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_base_mac_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_controls_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_fxml_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_graphics_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/src/main/java/com/example/demo/Deneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/demo/src/main/resources/com/example/demo/deneme.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +43,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1SCQsbd7cVax1kskkUE3tP9sVFF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +61,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -32,7 +70,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28388998" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -49,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/view/fxml/fxml" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LauncherNoFXML">
+  <component name="RunManager" selected="Application.ApplicationLauncher">
     <configuration name="ApplicationLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.ApplicationLauncher" />
       <module name="MVC workshop startProject" />
@@ -75,6 +113,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a893e13e-160b-4774-bb90-9fa7dd7d983b" name="Default Changelist" comment="" />
@@ -107,40 +146,31 @@
       <workItem from="1591365933613" duration="131000" />
       <workItem from="1591366073327" duration="36000" />
       <workItem from="1591366117121" duration="14000" />
+      <workItem from="1634023354513" duration="168000" />
+      <workItem from="1634023594827" duration="448000" />
+      <workItem from="1634024107098" duration="755000" />
+      <workItem from="1634026119690" duration="402000" />
+      <workItem from="1634026576413" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1951" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591366101529">
-      <screen x="1440" y="-9" width="1920" height="1177" />
-    </state>
-    <state x="1951" y="239" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591366101529" />
-    <state x="2578" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591364976253">
-      <screen x="1440" y="-9" width="1920" height="1177" />
-    </state>
-    <state x="2578" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591364976253" />
-    <state width="1649" height="3" key="GridCell.Tab.0.bottom" timestamp="1591365379257">
-      <screen x="1440" y="-9" width="1920" height="1177" />
-    </state>
-    <state width="1649" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379257" />
-    <state width="1649" height="3" key="GridCell.Tab.0.center" timestamp="1591365379256">
-      <screen x="1440" y="-9" width="1920" height="1177" />
-    </state>
-    <state width="1649" height="3" key="GridCell.Tab.0.center/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379256" />
-    <state width="1649" height="3" key="GridCell.Tab.0.left" timestamp="1591365379255">
-      <screen x="1440" y="-9" width="1920" height="1177" />
-    </state>
-    <state width="1649" height="3" key="GridCell.Tab.0.left/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379255" />
-    <state width="1649" height="3" key="GridCell.Tab.0.right" timestamp="1591365379256">
-      <screen x="1440" y="-9" width="1920" height="1177" />
-    </state>
-    <state width="1649" height="3" key="GridCell.Tab.0.right/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365379256" />
-    <state x="1999" y="147" key="SettingsEditor" timestamp="1591365198819">
-      <screen x="1440" y="-9" width="1920" height="1177" />
-    </state>
-    <state x="1999" y="147" key="SettingsEditor/0.23.1440.877/1440.-9.1920.1177@1440.-9.1920.1177" timestamp="1591365198819" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
