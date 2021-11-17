@@ -215,6 +215,5 @@ public class Table {
                 setBackground(this.tileId % 2 != 0 ? lightTileColor : darkTileColor);
             }
         }
-
     }
 }

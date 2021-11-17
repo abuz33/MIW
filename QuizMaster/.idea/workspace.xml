@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="589e91df-7640-4f27-877a-63a4fe9eaf89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_base_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_base_mac_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_controls_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_controls_mac_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_fxml_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_fxml_mac_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_graphics_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_openjfx_javafx_graphics_mac_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/src/main/java/com/example/demo/Deneme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/src/main/java/com/example/demo/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/src/main/resources/com/example/demo/deneme.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/src/main/resources/com/example/demo/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/target/classes/com/example/demo/Deneme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/target/classes/com/example/demo/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/target/classes/com/example/demo/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/target/classes/com/example/demo/deneme.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/target/classes/com/example/demo/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/demo/target/classes/module-info.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zimn651aeYv5BqSnKqcxvVRw15" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="589e91df-7640-4f27-877a-63a4fe9eaf89" name="Default Changelist" comment="" />
+      <created>1634639450124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634639450124</updated>
+      <workItem from="1634639456336" duration="855000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
