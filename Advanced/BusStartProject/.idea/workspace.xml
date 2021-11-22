@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5e1036b-366c-480c-9c12-92a63822682d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusMaven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/WoordLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/BestelBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Weighable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/WordLezer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/WordMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/BestelBusTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GenericFruit/GenericFruit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/Generics.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/model/FruitBasket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Pear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/HashMap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/controller/VakLauncher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/StudentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/StudentResultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/Vakken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/WordMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/WordMapRegelTeller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HashMap/src/resources/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordLinesMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordLinesMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/WordLinesMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/WordLinesMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/WordMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/WordMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/WordSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/WordSet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1SsZ6lq8UCnBoSVO78EnYAuM6wY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="model" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WoordLauncher">
+    <configuration name="BusLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.BusLauncher" />
+      <module name="BusStartProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WoordLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.WoordLauncher" />
+      <module name="BusStartProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PakketTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusStartProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PakketTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PakketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusMaven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PakketTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BusLauncher" />
+      <item itemvalue="JUnit.PakketTest" />
+      <item itemvalue="JUnit.PakketTest (1)" />
+      <item itemvalue="Application.WoordLauncher" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WoordLauncher" />
+        <item itemvalue="JUnit.PakketTest (1)" />
+        <item itemvalue="Application.BusLauncher" />
+        <item itemvalue="JUnit.PakketTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5e1036b-366c-480c-9c12-92a63822682d" name="Default Changelist" comment="" />
+      <created>1561991781150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561991781150</updated>
+      <workItem from="1561991784658" duration="14702000" />
+      <workItem from="1562577657690" duration="1259000" />
+      <workItem from="1562833371130" duration="1870000" />
+      <workItem from="1566992505360" duration="2039000" />
+      <workItem from="1572354092250" duration="2607000" />
+      <workItem from="1579603777681" duration="970000" />
+      <workItem from="1579880489531" duration="3144000" />
+      <workItem from="1582882385665" duration="1484000" />
+      <workItem from="1582884415261" duration="287000" />
+      <workItem from="1637317433071" duration="484000" />
+      <workItem from="1637317960791" duration="276000" />
+      <workItem from="1637318252272" duration="5000" />
+      <workItem from="1637318296503" duration="4276000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestCherrySettings">
+    <option name="namingConvention" value="Camel Case" />
+    <option name="testFramework" value="JUNIT5" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
