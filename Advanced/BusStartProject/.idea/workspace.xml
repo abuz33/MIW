@@ -5,62 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5e1036b-366c-480c-9c12-92a63822682d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusMaven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/WoordLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/BestelBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Weighable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/WordLezer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/WordMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/BestelBusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GenericFruit/GenericFruit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/Generics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/src/model/FruitBasket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Generics/src/model/Pear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/HashMap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/controller/VakLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/StudentResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/StudentResultTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/Vakken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/WordMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/model/WordMapRegelTeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HashMap/src/resources/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordLinesMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordLinesMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/out/production/Collections/com/company/WordSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/WordLinesMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/WordLinesMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/WordMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/WordMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Collections/src/com/company/WordSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collections/src/com/company/WordSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashMap/out/production/HashMap/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HashMap/out/production/HashMap/controller/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashMap/src/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashMap/src/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HashMap/src/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HashMap/src/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

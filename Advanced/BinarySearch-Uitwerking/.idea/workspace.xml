@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dca381e-4181-4b3f-8ddc-5b647d31f2bc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aZQnAOj8jXhKjI5QgwKmia9xDZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="nl.hva.miw.ads" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in BinarySearch">
+    <configuration name="All in BinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearch-uitwerking" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearch-uitwerking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.hva.miw.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.hva.miw.ads" />
+      <option name="MAIN_CLASS_NAME" value="nl.hva.miw.ads.BinarySearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTest.binarysearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinarySearch-uitwerking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.hva.miw.ads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nl.hva.miw.ads" />
+      <option name="MAIN_CLASS_NAME" value="nl.hva.miw.ads.BinarySearchTest" />
+      <option name="METHOD_NAME" value="binarysearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in BinarySearch" />
+        <item itemvalue="JUnit.BinarySearchTest.binarysearch" />
+        <item itemvalue="JUnit.BinarySearchTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dca381e-4181-4b3f-8ddc-5b647d31f2bc" name="Default Changelist" comment="" />
+      <created>1586940800763</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586940800763</updated>
+      <workItem from="1586940808922" duration="3779000" />
+      <workItem from="1586951205456" duration="397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1009" y="356" key="#Project_Structure" timestamp="1586951230095">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state x="1009" y="356" key="#Project_Structure/0.23.2560.1413@0.23.2560.1413" timestamp="1586951230095" />
+    <state x="485" y="162" width="1848" height="1054" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586942081945">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state x="485" y="162" width="1848" height="1054" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1413@0.23.2560.1413" timestamp="1586942081945" />
+    <state width="2006" height="436" key="GridCell.Tab.0.bottom" timestamp="1586951142141">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.0.bottom/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142141" />
+    <state width="2006" height="436" key="GridCell.Tab.0.center" timestamp="1586951142140">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.0.center/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142140" />
+    <state width="2006" height="436" key="GridCell.Tab.0.left" timestamp="1586951142139">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.0.left/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142139" />
+    <state width="2006" height="436" key="GridCell.Tab.0.right" timestamp="1586951142140">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.0.right/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142140" />
+    <state width="2006" height="436" key="GridCell.Tab.1.bottom" timestamp="1586951142143">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.1.bottom/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142143" />
+    <state width="2006" height="436" key="GridCell.Tab.1.center" timestamp="1586951142142">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.1.center/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142142" />
+    <state width="2006" height="436" key="GridCell.Tab.1.left" timestamp="1586951142142">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.1.left/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142142" />
+    <state width="2006" height="436" key="GridCell.Tab.1.right" timestamp="1586951142143">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state width="2006" height="436" key="GridCell.Tab.1.right/0.23.2560.1413@0.23.2560.1413" timestamp="1586951142143" />
+    <state x="897" y="272" key="SettingsEditor" timestamp="1586941865089">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state x="897" y="272" key="SettingsEditor/0.23.2560.1413@0.23.2560.1413" timestamp="1586941865089" />
+    <state x="1121" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586941880209">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state x="1121" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.2560.1413@0.23.2560.1413" timestamp="1586941880209" />
+    <state x="1188" y="425" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586945471651">
+      <screen x="0" y="23" width="2560" height="1413" />
+    </state>
+    <state x="1188" y="425" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.2560.1413@0.23.2560.1413" timestamp="1586945471651" />
+  </component>
+</project>
