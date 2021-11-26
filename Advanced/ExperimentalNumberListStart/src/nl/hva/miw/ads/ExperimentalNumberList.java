@@ -133,15 +133,19 @@ public class ExperimentalNumberList {
      *
      * @return
      */
-    public Integer[] locationOfLocalMaximum() {
+    public int[] locationOfLocalMaximum() {
         // Fill in your answer
-        List<Integer> idx = new ArrayList<>();
+        List<Integer> idxList = new ArrayList<>();
         for (int i = 0; i < numberOfElements; i++) {
             if (isLocalMaximum(i)) {
-                idx.add(i);
+                idxList.add(i);
             }
         }
-        return idx.toArray(new Integer[idx.size()]);
+        int[] idx = new int[idxList.size()];
+        for (int i = 0; i < idxList.size(); i++) {
+            idx[i] = idxList.get(i);
+        }
+        return idx;
     }
 
     /**
@@ -151,7 +155,7 @@ public class ExperimentalNumberList {
      */
     public int numberOfLocalMaximum() {
         // Fill in your answer
-        Integer[] localMaxIdx = this.locationOfLocalMaximum();
+        int[] localMaxIdx = this.locationOfLocalMaximum();
         return localMaxIdx.length;
     }
 
@@ -187,6 +191,19 @@ public class ExperimentalNumberList {
             if (i < min) min = i;
         }
         return min;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+//        ExperimentalNumberList that = (ExperimentalNumberList) o;
+        return Arrays.equals(numberList, (int[]) o);
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(numberList);
     }
 
     public String toString() {

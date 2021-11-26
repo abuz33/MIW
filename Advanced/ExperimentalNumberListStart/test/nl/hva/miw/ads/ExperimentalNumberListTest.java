@@ -27,4 +27,15 @@ public class ExperimentalNumberListTest {
         ExperimentalNumberList testList = new ExperimentalNumberList(testRijDubbeleWaarde);
         assertEquals(5, testList.countPositives());
     }
+
+    @Test
+    public void testLocationOfMaxPositie() {
+        ExperimentalNumberList testList = new ExperimentalNumberList(testRijDubbeleWaarde);
+        int[] VALID_POS = {0, 1, 4, 5, 6};
+        assertArrayEquals(VALID_POS, testList.locationOfLocalMaximum());
+
+        ExperimentalNumberList testList2 = new ExperimentalNumberList(testRijGeenDubbele);
+        int[] VALID_POS2 = {0, 1, 2};
+        assertArrayEquals(VALID_POS2, testList2.locationOfLocalMaximum());
+    }
 }
