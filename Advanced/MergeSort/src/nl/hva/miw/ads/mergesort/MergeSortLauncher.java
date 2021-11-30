@@ -1,5 +1,7 @@
 package nl.hva.miw.ads.mergesort;
 
+import java.util.ArrayList;
+
 public class MergeSortLauncher {
     /**
      * A test method
@@ -9,5 +11,6 @@ public class MergeSortLauncher {
         MergeSort.mergeSort(list);
         for (int i = 0; i < list.length; i++)
             System.out.print(list[i] + " ");
+
     }
 }
