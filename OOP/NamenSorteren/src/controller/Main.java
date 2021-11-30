@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int aantalNamen = NamenBestandVerwerker.telNamenBestand("9.2 ExtraNamen.txt");
-        int aantalNamen2 = NamenBestandVerwerker.telNamenBestand("9.2 GesorteerdeNamenOrigineel.txt");
+        int aantalNamen = NamenBestandVerwerker.telNamenBestand("9.2_ExtraNamen.txt");
+        int aantalNamen2 = NamenBestandVerwerker.telNamenBestand("9.2_GesorteerdeNamenOrigineel.txt");
 
-        ArrayList<String> sorteerdeNamen = NamenBestandVerwerker.leesNamenBestand("9.2 GesorteerdeNamenOrigineel.txt");
-        ArrayList<String> extraNamen = NamenBestandVerwerker.leesNamenBestand("9.2 ExtraNamen.txt");
+        ArrayList<String> sorteerdeNamen = NamenBestandVerwerker.leesNamenBestand("9.2_GesorteerdeNamenOrigineel.txt");
+        ArrayList<String> extraNamen = NamenBestandVerwerker.leesNamenBestand("9.2_ExtraNamen.txt");
         System.out.printf("Antal sorteerde Namen: %s \nAantal Extra Namen: %s\n", sorteerdeNamen.size(), extraNamen.size());
 
         NamenBestandVerwerker.voegNaamToeAanGesorteerdeLijst("Zumra", sorteerdeNamen);
