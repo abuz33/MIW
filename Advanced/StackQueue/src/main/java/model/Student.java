@@ -14,9 +14,9 @@ import java.util.Random;
  */
 public class Student implements Comparable<Student>{
     private static int nextStudentID = 500800001;
-    private static Random randomizer = new SecureRandom();
-    private int studentID;
-    private double mark;
+    private static final Random randomizer = new SecureRandom();
+    private final int studentID;
+    private final double mark;
 
     public Student() {
         studentID = nextStudentID++;

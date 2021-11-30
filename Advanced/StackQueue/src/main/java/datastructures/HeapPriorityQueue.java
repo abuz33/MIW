@@ -10,13 +10,12 @@ public class HeapPriorityQueue<I extends Comparable<I>> implements PriorityQueue
 
     @Override
     public void enqueue(I newItem) {
-        // TODO: Implementeer deze methode
+        contents.addItem(newItem);
     }
 
     @Override
     public I dequeue() {
-        // TODO: Implementeer deze methode
-        return null;
+        return contents.removeItem();
     }
 
     public int size() {

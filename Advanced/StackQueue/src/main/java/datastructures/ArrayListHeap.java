@@ -33,8 +33,8 @@ public class ArrayListHeap<I extends Comparable<I>> implements Heap<I> {
 
     @Override
     public I removeItem() {
-        I item = contents.isEmpty() ? null : this.contents.remove(0);
         exchange(0, this.contents.size() - 1);
+        I item = this.contents.remove(this.contents.size() - 1);
         sink(0);
         return item;
     }
@@ -47,16 +47,13 @@ public class ArrayListHeap<I extends Comparable<I>> implements Heap<I> {
     }
 
     private void sink(int index) {
-        while (left(index) <= this.contents.size()) {
-            int older = left(index);
-            if (right(index) <= this.contents.size() && lessThan(older, right(index))) {
-                older = right(index);
-            }
+        while (left(index) < this.contents.size()) {
+            int greater = left(index);
+            if (right(index) < this.contents.size() && lessThan(greater, right(index))) greater = right(index);
+            if (lessThan(greater, index)) break;
 
-            if (lessThan(older, index)) break;
-
-            exchange(index, older);
-            index = older;
+            exchange(index, greater);
+            index = greater;
         }
     }
 
