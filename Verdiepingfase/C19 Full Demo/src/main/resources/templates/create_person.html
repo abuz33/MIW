@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Person</title>
+</head>
+<body>
+    <h1>Dit is de pagina voor het invoeren van personen</h1>
+    <form th:action="@{create_person}" method="post" th:object="${person}">
+        <table>
+            <tr>
+                <td>Naam</td><td><input type="text" th:field="*{name}"></td>
+            </tr>
+            <tr>
+                <td>Geboren</td><td><input type="text" th:field="*{yearOfBirth}"></td>
+            </tr>
+            <tr>
+                <td>Overleden</td><td><input type="text" th:field="*{yearOfDeath}"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submitbutton" value="OK"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
