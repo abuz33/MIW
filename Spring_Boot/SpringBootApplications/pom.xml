@@ -13,6 +13,8 @@
         <module>spring-elastic-search</module>
         <module>spring-datajpa-postgresql</module>
         <module>spring-api-docs</module>
+        <module>spring-dockerization</module>
+        <module>spring-boot-aop</module>
     </modules>
 
     <properties>

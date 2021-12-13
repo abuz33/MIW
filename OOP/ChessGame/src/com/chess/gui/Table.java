@@ -56,6 +56,7 @@ public class Table {
     private JMenuBar createMenuBar() {
         final JMenuBar tableMenuBar = new JMenuBar();
         tableMenuBar.add(createFileMenu());
+        tableMenuBar.add(createPreferenceMenu());
         return tableMenuBar;
     }
 
@@ -79,6 +80,48 @@ public class Table {
         });
         fileMenu.add(exitMenuItem);
         return fileMenu;
+    }
+
+    private JMenu createPreferenceMenu() {
+        final JMenu preferenceMenu = new JMenu("Preferences");
+        final JMenuItem flipBoardMenu = new JMenuItem("Flip Board");
+        flipBoardMenu.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(final ActionEvent e) {
+
+            }
+        });
+
+        preferenceMenu.add(flipBoardMenu);
+        return preferenceMenu;
+    }
+
+    public enum BoardDirection {
+        NORMAL {
+            @Override
+            List<TilePanel> traverse(List<TilePanel> boardTiles) {
+                return boardTiles;
+            }
+
+            @Override
+            BoardDirection opposite() {
+                return FLIPPED;
+            }
+        }, FLIPPED {
+            @Override
+            List<TilePanel> traverse(List<TilePanel> boardTiles) {
+                return boardTiles;
+            }
+
+            @Override
+            BoardDirection opposite() {
+                return NORMAL;
+            }
+        };
+
+        abstract List<TilePanel> traverse(final List<TilePanel> boardTiles);
+
+        abstract BoardDirection opposite();
     }
 
     private class BoardPanel extends JPanel {
