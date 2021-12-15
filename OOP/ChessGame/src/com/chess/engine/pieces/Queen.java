@@ -20,7 +20,11 @@ public class Queen extends Piece {
     private final static int[] CANDIDATE_MOVE_VECTOR_COORDINATES = {-9, -8, -7, -1, 1, 7, 8, 9};
 
     public Queen(Alliance pieceAlliance, int piecePosition) {
-        super(PieceType.QUEEN, pieceAlliance, piecePosition);
+        super(PieceType.QUEEN, pieceAlliance, piecePosition, true);
+    }
+
+    public Queen(Alliance pieceAlliance, int piecePosition, final boolean isFirstMove) {
+        super(PieceType.QUEEN, pieceAlliance, piecePosition, isFirstMove);
     }
 
     @Override

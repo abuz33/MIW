@@ -2,37 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8ee4a85-acba-4efa-84c9-da269e40597d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/main/java/com/example/springrabbitmq/SpringRabbitmqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/main/java/com/example/springrabbitmq/config/RabbitMqConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/main/java/com/example/springrabbitmq/listener/NotificationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/main/java/com/example/springrabbitmq/model/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/main/java/com/example/springrabbitmq/producer/NotificationProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/main/resources/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-rabbitmq/src/test/java/com/example/springrabbitmq/SpringRabbitmqApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/src/main/java/com/example/springinitializer/SpringInitializerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/src/main/java/com/example/springinitializer/VoorbeeldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/src/main/java/com/example/springinitializer/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Spring_Boot/spring-initializer/src/test/java/com/example/springinitializer/SpringInitializerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/engine/Alliance$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/engine/Alliance$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/engine/Alliance$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/engine/Alliance$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/engine/Alliance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/engine/Alliance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$BoardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$BoardPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$TilePanel$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$TilePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$TilePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$TilePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table$TilePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/out/production/ChessGame/com/chess/gui/Table.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/Alliance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/Alliance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/engine/pieces/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/gui/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../OOP/ChessGame/src/com/chess/gui/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-api-docs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-api-docs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-elastic-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-elastic-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-mongo-rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/SpringBootApplications/spring-mongo-rest-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C19 Full Demo.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring_Boot/springdatarepo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Boot/springdatarepo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

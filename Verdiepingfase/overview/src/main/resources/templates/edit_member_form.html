@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Member Form</title>
+</head>
+<body>
+<h1 th:text="${message}">Wijzig Gegevens Lid</h1>
+<form method="post" th:action="@{edit_member}" th:object="${member}">
+    <input type="hidden" th:field="*{memberId}">
+    <table>
+        <tr>
+            <td>Voornaam</td><td><input type="text" th:field="*{firstname}"></td>
+        </tr>
+        <tr>
+            <td>Achternaam</td><td><input type="text" th:field="*{lastname}"></td>
+        </tr>
+        <tr>
+            <td>Niveau</td><td><input type="text" th:field="*{level}"></td>
+        </tr>
+        <tr>
+            <td>Competitie</td>
+            <td>
+                <select th:field="*{competitionPlayer}">
+                    <option th:value="true" th:text="Ja"/>
+                    <option th:value="false" th:text="Nee"/>
+                </select>
+            </td>
+        </tr>
+        <tr><td><input type="submit" name="submit" value="OK"></td></tr>
+    </table>
+</form>
+<a href="menu">Terug naar het menu</a>
+</body>
+</html>

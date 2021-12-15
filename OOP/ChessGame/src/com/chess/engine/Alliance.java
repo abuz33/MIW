@@ -6,7 +6,6 @@ import com.chess.engine.player.WhitePlayer;
 
 public enum Alliance {
     WHITE {
-
         @Override
         public int getDirection() {
             return -1;

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ledenlijst</title>
+</head>
+<body>
+    <h2>Ledenlijst</h2>
+    <table>
+        <tr>
+            <td>Voornaam</td><td>Achternaam</td><td>Level</td><td>Competitie</td>
+        </tr>
+        <tr th:each="member: ${memberlist}">
+            <td th:text="${member.firstname}"/>
+            <td th:text="${member.lastname}"/>
+            <td th:text="${member.level}"/>
+            <td th:text="${member.competitionPlayer}"/>
+        </tr>
+    </table>
+    <a href="menu">Terug</a> naar het menu
+</body>
+</html>
