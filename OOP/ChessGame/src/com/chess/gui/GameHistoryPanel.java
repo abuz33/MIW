@@ -52,21 +52,19 @@ class GameHistoryPanel extends JPanel {
         if (moveHistory.getMoves().size() > 0) {
             final Move lastMove = moveHistory.getMoves().get(moveHistory.size() - 1);
             final String moveText = lastMove.toString();
-
             if (lastMove.getMovedPiece().getPieceAlliance().isWhite()) {
                 this.model.setValueAt(moveText + calculateCheckMateHash(board), currentRow, 0);
             } else if (lastMove.getMovedPiece().getPieceAlliance().isBlack()) {
                 this.model.setValueAt(moveText + calculateCheckMateHash(board), currentRow - 1, 1);
             }
         }
-
         final JScrollBar vertical = scrollPane.getVerticalScrollBar();
         vertical.setValue(vertical.getMaximum());
 
     }
 
     private static String calculateCheckMateHash(final Board board) {
-        return board.currentPlayer().isInCheckMate() ? "#" : "";
+        return board.currentPlayer().isInCheckMate() ? "#" : board.currentPlayer().isInCheckMate() ? "+" : "";
     }
 
     private static class Row {

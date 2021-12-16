@@ -15,7 +15,6 @@ import com.chess.engine.pieces.Rook;
 import com.google.common.collect.ImmutableList;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
@@ -28,7 +27,7 @@ public class WhitePlayer extends Player {
     }
 
     @Override
-    public Collection<Piece> getActievePieces() {
+    public Collection<Piece> getActivePieces() {
         return this.board.getWhitePieces();
     }
 
@@ -55,7 +54,7 @@ public class WhitePlayer extends Player {
                         Player.calculateAttacksOnTile(61, opponentsLegalMoves).isEmpty() &&
                         Player.calculateAttacksOnTile(62, opponentsLegalMoves).isEmpty() &&
                         rookTile.getPiece().getPieceType().isRook()) {
-                    kingCastles.add(new Move.KingSideCastle(this.board, this.playerKing, 62,
+                    kingCastles.add(new KingSideCastleMove(this.board, this.playerKing, 62,
                             (Rook) rookTile.getPiece(), rookTile.getTileCoordinate(), 61));
                 }
             }
@@ -70,7 +69,7 @@ public class WhitePlayer extends Player {
                         Player.calculateAttacksOnTile(58, opponentsLegalMoves).isEmpty() &&
                         Player.calculateAttacksOnTile(59, opponentsLegalMoves).isEmpty() &&
                         rookTile.getPiece().getPieceType().isRook()) {
-                    kingCastles.add(new Move.KingSideCastle(this.board, this.playerKing, 58,
+                    kingCastles.add(new KingSideCastleMove(this.board, this.playerKing, 58,
                             (Rook) rookTile.getPiece(), rookTile.getTileCoordinate(), 59));
                 }
             }

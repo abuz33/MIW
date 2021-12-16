@@ -25,7 +25,7 @@ public class BlackPlayer extends Player {
     }
 
     @Override
-    public Collection<Piece> getActievePieces() {
+    public Collection<Piece> getActivePieces() {
         return this.board.getBlackPieces();
     }
 
@@ -52,7 +52,7 @@ public class BlackPlayer extends Player {
                         Player.calculateAttacksOnTile(6, opponentsLegalMoves).isEmpty() &&
                         rookTile.getPiece().getPieceType().isRook()) {
                     // TODO Add a Castle Move
-                    kingCastles.add(new Move.KingSideCastle(this.board, this.playerKing, 6,
+                    kingCastles.add(new Move.KingSideCastleMove(this.board, this.playerKing, 6,
                             (Rook) rookTile.getPiece(), rookTile.getTileCoordinate(), 5));
                 }
             }
@@ -70,7 +70,7 @@ public class BlackPlayer extends Player {
                     // TODO Add a Castle Move!!!;
 
                     //  kingCastles.add(null);
-                    kingCastles.add(new Move.KingSideCastle(this.board, this.playerKing, 2,
+                    kingCastles.add(new Move.KingSideCastleMove(this.board, this.playerKing, 2,
                             (Rook) rookTile.getPiece(), rookTile.getTileCoordinate(), 3));
 
                 }

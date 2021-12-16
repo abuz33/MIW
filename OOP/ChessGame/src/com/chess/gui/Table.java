@@ -25,7 +25,11 @@ import static javax.swing.SwingUtilities.isRightMouseButton;
 
 public class Table {
     private final JFrame gameFrame;
+    private final GameHistoryPanel gameHistoryPanel;
+    private final TakenPiecesPanel takenPiecesPanel;
     private final BoardPanel boardPanel;
+    private final MoveLog moveLog;
+
     private Board chessBoard;
 
     private Tile sourceTile;
@@ -37,7 +41,7 @@ public class Table {
     private final static Dimension OUTER_FRAME_DIMENSION = new Dimension(600, 600);
     private final static Dimension BOARD_PANEL_DIMENSION = new Dimension(400, 350);
     private static final Dimension TILE_PANEL_DIMENSION = new Dimension(10, 10);
-    private static String defaultPieceLocation = "art/simple/";
+    private static final String defaultPieceLocation = "art/simple/";
 
     private static final Color lightTileColor = Color.decode("#FFFACD");
     private static final Color darkTileColor = Color.decode("#593E1A");
@@ -45,15 +49,20 @@ public class Table {
 
     public Table() {
         this.gameFrame = new JFrame("CHESS Engine By Abuzer Alaca");
-        this.chessBoard = Board.createStandardBoard();
         this.gameFrame.setLayout(new BorderLayout());
         final JMenuBar tableMenuBar = createMenuBar();
         this.gameFrame.setJMenuBar(tableMenuBar);
         this.gameFrame.setSize(OUTER_FRAME_DIMENSION);
+        this.chessBoard = Board.createStandardBoard();
+        this.gameHistoryPanel = new GameHistoryPanel();
+        this.takenPiecesPanel = new TakenPiecesPanel();
         this.boardPanel = new BoardPanel();
+        this.moveLog = new MoveLog();
         this.boardDirection = BoardDirection.NORMAL;
         this.highlightLegalMoves = false;
+        this.gameFrame.add(this.takenPiecesPanel, BorderLayout.WEST);
         this.gameFrame.add(boardPanel, BorderLayout.CENTER);
+        this.gameFrame.add(this.gameHistoryPanel, BorderLayout.EAST);
         this.gameFrame.setVisible(true);
     }
 
@@ -202,7 +211,6 @@ public class Table {
                 @Override
                 public void mouseClicked(final MouseEvent e) {
                     if (isLeftMouseButton(e)) {
-
                         if (sourceTile == null) {
                             //first click
                             sourceTile = chessBoard.getTile(tileId);
@@ -216,7 +224,7 @@ public class Table {
                             final MoveTransition transition = chessBoard.currentPlayer().makeMove(move);
                             if (transition.getMoveStatus().isDone()) {
                                 chessBoard = transition.getTransitionBoard();
-                                // TODO add the move to the move log!!!
+                                moveLog.addMove(move);
                             }
                             sourceTile = null;
                             destinationTile = null;
@@ -227,7 +235,11 @@ public class Table {
                         destinationTile = null;
                         humanMovedPiece = null;
                     }
-                    SwingUtilities.invokeLater(() -> boardPanel.drawBoard(chessBoard));
+                    SwingUtilities.invokeLater(() -> {
+                        gameHistoryPanel.redo(chessBoard, moveLog);
+                        takenPiecesPanel.redo(moveLog);
+                        boardPanel.drawBoard(chessBoard);
+                    });
                 }
 
 
@@ -292,9 +304,8 @@ public class Table {
         }
 
         private Collection<Move> pieceLegalMoves(Board board) {
-            if (humanMovedPiece != null && humanMovedPiece.getPieceAlliance() == board.currentPlayer().getAlliance()) {
+            if (humanMovedPiece != null && humanMovedPiece.getPieceAlliance() == board.currentPlayer().getAlliance())
                 return humanMovedPiece.calculateLegalMoves(board);
-            }
             return Collections.emptyList();
         }
 

@@ -43,7 +43,7 @@ public abstract class Player {
     }
 
     private King establishKing() {
-        for (final Piece piece : getActievePieces()) {
+        for (final Piece piece : getActivePieces()) {
             if (piece.getPieceType().isKing()) {
                 return (King) piece;
             }
@@ -104,7 +104,7 @@ public abstract class Player {
         return new MoveTransition(transitionBoard, move, MoveStatus.DONE);
     }
 
-    public abstract Collection<Piece> getActievePieces();
+    public abstract Collection<Piece> getActivePieces();
 
     public abstract Alliance getAlliance();
 

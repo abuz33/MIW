@@ -60,7 +60,7 @@ class TakenPiecesPanel extends JPanel {
 
                 if (takenPiece.getPieceAlliance().isWhite()) {
                     whiteTakenPieces.add(takenPiece);
-                } else if (takenPiece.getPieceAlliance().isWhite()) {
+                } else if (takenPiece.getPieceAlliance().isBlack()) {
                     blackTakenPieces.add(takenPiece);
                 } else {
                     throw new RuntimeException("should not reach here");
@@ -87,7 +87,7 @@ class TakenPiecesPanel extends JPanel {
             try {
                 final BufferedImage image = ImageIO.read(new File("art/holywarriors/" + piece.getPieceAlliance().toString().charAt(0) + "" + piece.toString() + ".gif"));
                 final ImageIcon ic = new ImageIcon(image);
-                final JLabel imageLabel = new JLabel();
+                final JLabel imageLabel = new JLabel(ic);
                 this.northPanel.add(imageLabel);
             } catch (Exception e) {
                 e.printStackTrace();
