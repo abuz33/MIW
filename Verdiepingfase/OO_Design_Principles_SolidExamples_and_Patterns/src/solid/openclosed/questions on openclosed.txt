@@ -1,0 +1,4 @@
+is more a principle, than an 'error' with a solution.
+what is open for extension, but closed for modification?
+Look at Shape class
+what about in the solution?

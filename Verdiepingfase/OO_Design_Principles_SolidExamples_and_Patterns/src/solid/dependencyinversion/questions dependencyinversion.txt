@@ -1,0 +1,4 @@
+imagine all parts are c4 containers
+
+what needs to be done when UI or DB implementation code changes?
+

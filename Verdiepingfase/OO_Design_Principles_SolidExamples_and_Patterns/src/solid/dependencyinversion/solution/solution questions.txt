@@ -1,0 +1,7 @@
+    // But....
+How does the businesslogic 'receive' the correct interface implementations?
+
+? by creating them when defining the attributes?
+? by creating them in the constructor?
+? some other way ?
+

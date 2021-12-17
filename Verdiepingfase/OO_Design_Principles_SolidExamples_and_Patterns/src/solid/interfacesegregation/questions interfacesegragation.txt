@@ -1,0 +1,5 @@
+more a principle than an 'error'. is used a lot.
+
+what if AMachine is in a separate (C4) component?
+what if AContainer is in a separate C4 container?
+what needs to be compiled, rebuilt and deployed when Operations changes?

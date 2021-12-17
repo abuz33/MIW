@@ -1,0 +1,4 @@
+which actor is interested in which method?
+finance: calculatepay
+direct mgt: reporthours
+infra/db administrators: save

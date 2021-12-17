@@ -1,0 +1,550 @@
+@startuml
+
+title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
+
+  namespace Facade_MetInterface {
+    class Facade_MetInterface.StartWithMain {
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    abstract class patterns.abstractfactory.AbstractFactory {
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    class patterns.abstractfactory.AbstractFactoryPatternDemo {
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    class patterns.abstractfactory.FactoryProducer {
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    interface patterns.abstractfactory.IShape {
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    enum ShapeType {
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory1 {
+      class patterns.abstractfactory.factory1.Circle {
+      }
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory1 {
+      class patterns.abstractfactory.factory1.Rectangle {
+      }
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory1 {
+      class patterns.abstractfactory.factory1.ShapeFactory {
+      }
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory1 {
+      class patterns.abstractfactory.factory1.Square {
+      }
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory2 {
+      class patterns.abstractfactory.factory2.RoundedCircle {
+      }
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory2 {
+      class patterns.abstractfactory.factory2.RoundedRectangle {
+      }
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory2 {
+      class patterns.abstractfactory.factory2.RoundedShapeFactory {
+      }
+    }
+  }
+  
+
+  namespace patterns.abstractfactory {
+    namespace factory2 {
+      class patterns.abstractfactory.factory2.RoundedSquare {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    class patterns.facade.CDSpeler {
+    }
+  }
+  
+
+  namespace patterns.facade {
+    class patterns.facade.Lichten {
+    }
+  }
+  
+
+  namespace patterns.facade {
+    class patterns.facade.PopcornPopper {
+    }
+  }
+  
+
+  namespace patterns.facade {
+    class patterns.facade.Projector {
+    }
+  }
+  
+
+  namespace patterns.facade {
+    class patterns.facade.Scherm {
+    }
+  }
+  
+
+  namespace patterns.facade {
+    class patterns.facade.Tuner {
+    }
+  }
+  
+
+  namespace patterns.facade {
+    class patterns.facade.Versterker {
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solidoverwegingen {
+      class patterns.facade.solidoverwegingen.GasLantaarn {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solidoverwegingen {
+      class patterns.facade.solidoverwegingen.HomeTheater1930 {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solidoverwegingen {
+      class patterns.facade.solidoverwegingen.LantaarnProjector {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solidoverwegingen {
+      class patterns.facade.solidoverwegingen.Vrouw {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solidoverwegingen {
+      class patterns.facade.solidoverwegingen.ZwengelGrammofoon {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solution {
+      class patterns.facade.solution.HomeTheater {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solution {
+      interface patterns.facade.solution.HomeTheaterInterface {
+      }
+    }
+  }
+  
+
+  namespace patterns.facade {
+    namespace solution {
+      class patterns.facade.solution.Main {
+      }
+    }
+  }
+  
+
+  namespace patterns.factory {
+    class patterns.factory.Circle {
+    }
+  }
+  
+
+  namespace patterns.factory {
+    class patterns.factory.FactoryPatternDemo {
+    }
+  }
+  
+
+  namespace patterns.factory {
+    interface patterns.factory.IShape {
+    }
+  }
+  
+
+  namespace patterns.factory {
+    class patterns.factory.Rectangle {
+    }
+  }
+  
+
+  namespace patterns.factory {
+    class patterns.factory.ShapeFactory {
+    }
+  }
+  
+
+  namespace patterns.factory {
+    class patterns.factory.Square {
+    }
+  }
+  
+
+  namespace patterns.singleton {
+    class patterns.singleton.CasinoCashier {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.badexample {
+    class solid.dependencyinversion.badexample.BusinessLogic {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.badexample {
+    class solid.dependencyinversion.badexample.DB {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.badexample {
+    class solid.dependencyinversion.badexample.UI {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.solution {
+    class solid.dependencyinversion.solution.BusinessLogic {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.solution {
+    class solid.dependencyinversion.solution.DB {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.solution {
+    class solid.dependencyinversion.solution.UI {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.solution {
+    interface solid.dependencyinversion.solution.interfaceDB {
+    }
+  }
+  
+
+  namespace solid.dependencyinversion.solution {
+    interface solid.dependencyinversion.solution.interfaceUI {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.badexample {
+    class solid.interfacesegregation.badexample.AContainer {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.badexample {
+    class solid.interfacesegregation.badexample.AMachine {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.badexample {
+    class solid.interfacesegregation.badexample.MUser {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.badexample {
+    class solid.interfacesegregation.badexample.Operations {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.solution {
+    class solid.interfacesegregation.solution.AContainer {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.solution {
+    class solid.interfacesegregation.solution.AMachine {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.solution {
+    class solid.interfacesegregation.solution.MUser {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.solution {
+    class solid.interfacesegregation.solution.Operations {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.solution {
+    interface solid.interfacesegregation.solution.interfaceOperations1 {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.solution {
+    interface solid.interfacesegregation.solution.interfaceOperations2 {
+    }
+  }
+  
+
+  namespace solid.interfacesegregation.solution {
+    interface solid.interfacesegregation.solution.interfaceOperations3 {
+    }
+  }
+  
+
+  namespace solid.liskov.badexample {
+    class solid.liskov.badexample.Rectangle {
+    }
+  }
+  
+
+  namespace solid.liskov.badexample {
+    class solid.liskov.badexample.RectangleTest {
+    }
+  }
+  
+
+  namespace solid.liskov.badexample {
+    class solid.liskov.badexample.Square {
+    }
+  }
+  
+
+  namespace solid.liskov.solution {
+    class solid.liskov.solution.Rectangle {
+    }
+  }
+  
+
+  namespace solid.liskov.solution {
+    class solid.liskov.solution.Square {
+    }
+  }
+  
+
+  namespace solid.liskov.solution {
+    class solid.liskov.solution.SquareTest {
+    }
+  }
+  
+
+  namespace solid.openclosed.badexample {
+    class solid.openclosed.badexample.Circle {
+    }
+  }
+  
+
+  namespace solid.openclosed.badexample {
+    class solid.openclosed.badexample.Main {
+    }
+  }
+  
+
+  namespace solid.openclosed.badexample {
+    class solid.openclosed.badexample.Rectangle {
+    }
+  }
+  
+
+  namespace solid.openclosed.badexample {
+    class solid.openclosed.badexample.Shape {
+    }
+  }
+  
+
+  namespace solid.openclosed.solution {
+    class solid.openclosed.solution.Circle {
+    }
+  }
+  
+
+  namespace solid.openclosed.solution {
+    class solid.openclosed.solution.Main {
+    }
+  }
+  
+
+  namespace solid.openclosed.solution {
+    class solid.openclosed.solution.Rectangle {
+    }
+  }
+  
+
+  namespace solid.openclosed.solution {
+    abstract class solid.openclosed.solution.Shape {
+    }
+  }
+  
+
+  namespace solid.singleresponsibility.badexample {
+    class solid.singleresponsibility.badexample.Employee {
+    }
+  }
+  
+
+  namespace solid.singleresponsibility.badexample {
+    class solid.singleresponsibility.badexample.MoneyAmount {
+    }
+  }
+  
+
+  namespace solid.singleresponsibility.badexample {
+    class solid.singleresponsibility.badexample.Report {
+    }
+  }
+  
+
+  namespace solid.singleresponsibility.solution {
+    class solid.singleresponsibility.solution.EmployeeData {
+    }
+  }
+  
+
+  namespace solid.singleresponsibility.solution {
+    class solid.singleresponsibility.solution.EmployeeSaver {
+    }
+  }
+  
+
+  namespace solid.singleresponsibility.solution {
+    class solid.singleresponsibility.solution.HourReporter {
+    }
+  }
+  
+
+  namespace solid.singleresponsibility.solution {
+    class solid.singleresponsibility.solution.PayCalculator {
+    }
+  }
+  
+
+  patterns.abstractfactory.factory1.Circle .up.|> patterns.abstractfactory.IShape
+  patterns.abstractfactory.factory1.Rectangle .up.|> patterns.abstractfactory.IShape
+  patterns.abstractfactory.factory1.ShapeFactory -up-|> patterns.abstractfactory.AbstractFactory
+  patterns.abstractfactory.factory1.Square .up.|> patterns.abstractfactory.IShape
+  patterns.abstractfactory.factory2.RoundedCircle .up.|> patterns.abstractfactory.IShape
+  patterns.abstractfactory.factory2.RoundedRectangle .up.|> patterns.abstractfactory.IShape
+  patterns.abstractfactory.factory2.RoundedShapeFactory -up-|> patterns.abstractfactory.AbstractFactory
+  patterns.abstractfactory.factory2.RoundedSquare .up.|> patterns.abstractfactory.IShape
+  patterns.facade.solidoverwegingen.HomeTheater1930 .up.|> patterns.facade.solution.HomeTheaterInterface
+  patterns.facade.solidoverwegingen.HomeTheater1930 o-- patterns.facade.solidoverwegingen.ZwengelGrammofoon : grammo
+  patterns.facade.solidoverwegingen.HomeTheater1930 o-- patterns.facade.solidoverwegingen.GasLantaarn : licht
+  patterns.facade.solidoverwegingen.HomeTheater1930 o-- patterns.facade.solidoverwegingen.LantaarnProjector : projector
+  patterns.facade.solidoverwegingen.HomeTheater1930 o-- patterns.facade.solidoverwegingen.Vrouw : vrouw
+  patterns.facade.solution.HomeTheater .up.|> patterns.facade.solution.HomeTheaterInterface
+  patterns.facade.solution.HomeTheater o-- patterns.facade.CDSpeler : lnkCDSpeler
+  patterns.facade.solution.HomeTheater o-- patterns.facade.Lichten : lnkLichten
+  patterns.facade.solution.HomeTheater o-- patterns.facade.PopcornPopper : lnkPopcornPopper
+  patterns.facade.solution.HomeTheater o-- patterns.facade.Projector : lnkProjector
+  patterns.facade.solution.HomeTheater o-- patterns.facade.Scherm : lnkScherm
+  patterns.facade.solution.HomeTheater o-- patterns.facade.Tuner : lnkTuner
+  patterns.facade.solution.HomeTheater o-- patterns.facade.Versterker : versterker
+  patterns.factory.Circle .up.|> patterns.factory.IShape
+  patterns.factory.Rectangle .up.|> patterns.factory.IShape
+  patterns.factory.Square .up.|> patterns.factory.IShape
+  solid.dependencyinversion.badexample.BusinessLogic o-- solid.dependencyinversion.badexample.DB : database
+  solid.dependencyinversion.badexample.BusinessLogic o-- solid.dependencyinversion.badexample.UI : ui
+  solid.dependencyinversion.solution.BusinessLogic o-- solid.dependencyinversion.solution.interfaceDB : database
+  solid.dependencyinversion.solution.BusinessLogic o-- solid.dependencyinversion.solution.interfaceUI : ui
+  solid.dependencyinversion.solution.DB .up.|> solid.dependencyinversion.solution.interfaceDB
+  solid.dependencyinversion.solution.UI .up.|> solid.dependencyinversion.solution.interfaceUI
+  solid.interfacesegregation.badexample.AContainer o-- solid.interfacesegregation.badexample.Operations : ops
+  solid.interfacesegregation.badexample.AMachine o-- solid.interfacesegregation.badexample.Operations : ops
+  solid.interfacesegregation.badexample.MUser o-- solid.interfacesegregation.badexample.Operations : ops
+  solid.interfacesegregation.solution.AContainer o-- solid.interfacesegregation.solution.interfaceOperations3 : ops
+  solid.interfacesegregation.solution.AMachine o-- solid.interfacesegregation.solution.interfaceOperations2 : ops
+  solid.interfacesegregation.solution.MUser o-- solid.interfacesegregation.solution.interfaceOperations1 : ops
+  solid.interfacesegregation.solution.Operations .up.|> solid.interfacesegregation.solution.interfaceOperations1
+  solid.interfacesegregation.solution.Operations .up.|> solid.interfacesegregation.solution.interfaceOperations2
+  solid.interfacesegregation.solution.Operations .up.|> solid.interfacesegregation.solution.interfaceOperations3
+  solid.liskov.badexample.Square -up-|> solid.liskov.badexample.Rectangle
+  solid.liskov.solution.Rectangle -up-|> solid.liskov.solution.Square
+  solid.openclosed.badexample.Circle -up-|> solid.openclosed.badexample.Shape
+  solid.openclosed.badexample.Rectangle -up-|> solid.openclosed.badexample.Shape
+  solid.openclosed.solution.Circle -up-|> solid.openclosed.solution.Shape
+  solid.openclosed.solution.Rectangle -up-|> solid.openclosed.solution.Shape
+  solid.singleresponsibility.solution.EmployeeSaver o-- solid.singleresponsibility.solution.EmployeeData : data
+  solid.singleresponsibility.solution.HourReporter o-- solid.singleresponsibility.solution.EmployeeData : data
+  solid.singleresponsibility.solution.PayCalculator o-- solid.singleresponsibility.solution.EmployeeData : data
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
