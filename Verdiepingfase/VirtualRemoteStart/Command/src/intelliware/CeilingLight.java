@@ -5,24 +5,22 @@
 package intelliware;
 
 /**
- *
  * @author martijnthorig
  */
 public class CeilingLight {
-    
     public void On() {
-       System.out.println("Ceiling Light is on.");
+        System.out.println("Ceiling Light is on.");
     }
-    
+
     public void Off() {
-       System.out.println("Ceiling Light is off.");
+        System.out.println("Ceiling Light is off.");
     }
-    
+
     public void DimDown() {
-       System.out.println("Ceiling Light dimmed down");
+        System.out.println("Ceiling Light dimmed down");
     }
-    
+
     public void DimUp() {
-       System.out.println("Ceiling Light dimmed up");
+        System.out.println("Ceiling Light dimmed up");
     }
 }

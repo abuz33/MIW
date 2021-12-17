@@ -68,7 +68,7 @@ public class BoardUtils {
     }
 
     public static int getCoordinateAtPosition(final String position) {
-        return POSITION_TO_COORDINATE.get(Integer.parseInt(position));
+        return POSITION_TO_COORDINATE.get(position);
     }
 
     private static Map<String, Integer> initializePositionToCoordinateMap() {

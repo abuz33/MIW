@@ -1,5 +1,6 @@
 package model;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -63,4 +64,5 @@ public class BatteryFactoryTest {
         returned = bf.createBattery(1, -1);
         assertNull(returned, "Should get this message if they are not same");
     }
+
 }
