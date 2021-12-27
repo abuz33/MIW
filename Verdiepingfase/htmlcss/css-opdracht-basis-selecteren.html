@@ -1,0 +1,87 @@
+<!DOCTYPE >
+<html>
+  <head>
+    <title>CSS de basis</title>
+    <style>
+      /* zorg dat de h1 header onderstreept wordt en in Arial wordt weergegeven en de tekst horizontaal gecentreerd wordt */
+      h1 {
+        text-decoration: underline;
+        font-style: italic;
+      }
+
+      /* zorg dat de tekst van de h2 en paragraaf elementen een overline krijgen */
+      h2,
+      p {
+        text-decoration: overline;
+      }
+
+      /* voorzie elk paragraafelement in een div van een oranje achtergrond kleur */
+      p {
+        background-color: orange;
+      }
+
+      /* zorg dat de tekst van de voetnoot paragraaf op 3/4 van de grootte van de normale tekst wordt weergegeven */
+      p:after {
+        content: "";
+        display: block;
+        height: 3em;
+        margin-top: -3em;
+      }
+      /* zorg dat elke tweede h2 header in de div's een gele achtergrond kleur krijgt */
+      h2:nth-child(2n + 1) {
+        background-color: lightgreen;
+      }
+      /* zorg de paragrafen direct na div's schuingedrukt wordt en waarvan de tekst reckst is uitgelijnd */
+      p:nth-child(2n + 1) {
+        text-align: right;
+      }
+
+      /* centreer alle div tags (tip: gebruik width en margin handig, het element hoeft maar 50% breed te zijn) */
+      div {
+        width: 50%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- A: zorg dat de h1 header onderstreept wordt en in Arial wordt weergegeven en de tekst horizontaal gecentreerd wordt-->
+
+    <!-- B: zorg dat de tekst van de h2 en paragraaf elementen een overline krijgen-->
+
+    <!-- C: voorzie elk paragraafelement in een div van een oranje achtergrond kleur -->
+
+    <!-- D: zorg dat de tekst van de voetnoot paragraaf op 3/4 van de grootte van de normale tekst wordt weergegeven -->
+
+    <!-- E: zorg dat elke tweede h2 header in de div's een gele achtergrond kleur krijgt-->
+
+    <!-- F: zorg de paragrafen direct na div's schuingedrukt wordt en waarvan de tekst reckst is uitgelijnd -->
+
+    <!-- G: centreer alle div tags (tip: gebruik width en margin handig, het element hoeft maar 50% breed te zijn) -->
+
+    <h1>CSS de Basis</h1>
+
+    <p>Opdracht 1: de basis van CSS onder de knie krijgen</p>
+
+    <div>
+      <h2>Div 1 - Header 1</h2>
+      <p>Div 1 - Paragraaf 1</p>
+      <h2>Div 1 - Header 2</h2>
+      <p>Div 1 - Paragraaf 2</p>
+      <h2>Div 1 - Header 3</h2>
+      <p>Div 1 - Paragraaf 3</p>
+    </div>
+
+    <p>Na een een div!</p>
+
+    <div>
+      <h2>Div 2 - Header 1</h2>
+      <p>Div 2 - Paragraaf 1</p>
+      <h2>Div 2 - Header 2</h2>
+      <p>Div 2 - Paragraaf 2</p>
+    </div>
+
+    <p>Na een een div!</p>
+
+    <p id="voetnoot">CSS vereist vooral oefening</p>
+  </body>
+</html>

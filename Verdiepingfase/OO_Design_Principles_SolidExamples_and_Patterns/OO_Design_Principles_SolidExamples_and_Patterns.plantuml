@@ -8,6 +8,48 @@ title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
   }
   
 
+  namespace designprinciples {
+    class designprinciples.Pizza {
+    }
+  }
+  
+
+  namespace designprinciples {
+    class designprinciples.TomatoSaucePizza {
+    }
+  }
+  
+
+  namespace fromsheets.drawingcontroller {
+    class fromsheets.drawingcontroller.Drawing {
+    }
+  }
+  
+
+  namespace fromsheets.drawingcontroller {
+    namespace withMediator {
+      class fromsheets.drawingcontroller.withMediator.DrawingController {
+      }
+    }
+  }
+  
+
+  namespace fromsheets.drawingcontroller {
+    namespace withMediator {
+      interface fromsheets.drawingcontroller.withMediator.PersistencyMediator {
+      }
+    }
+  }
+  
+
+  namespace fromsheets.drawingcontroller {
+    namespace withoutMediator {
+      class fromsheets.drawingcontroller.withoutMediator.DrawingController {
+      }
+    }
+  }
+  
+
   namespace patterns.abstractfactory {
     abstract class patterns.abstractfactory.AbstractFactory {
     }
@@ -98,6 +140,120 @@ title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
     namespace factory2 {
       class patterns.abstractfactory.factory2.RoundedSquare {
       }
+    }
+  }
+  
+
+  namespace patterns.command.lunchroom {
+    class patterns.command.lunchroom.BurgerAndFriesOrder {
+    }
+  }
+  
+
+  namespace patterns.command.lunchroom {
+    class patterns.command.lunchroom.Klant {
+    }
+  }
+  
+
+  namespace patterns.command.lunchroom {
+    class patterns.command.lunchroom.Kok {
+    }
+  }
+  
+
+  namespace patterns.command.lunchroom {
+    class patterns.command.lunchroom.LunchRoom {
+    }
+  }
+  
+
+  namespace patterns.command.lunchroom {
+    interface patterns.command.lunchroom.Order {
+    }
+  }
+  
+
+  namespace patterns.command.lunchroom {
+    class patterns.command.lunchroom.Serveerster {
+    }
+  }
+  
+
+  namespace patterns.decorator.pizza {
+    class patterns.decorator.pizza.Cheese {
+    }
+  }
+  
+
+  namespace patterns.decorator.pizza {
+    class patterns.decorator.pizza.Olives {
+    }
+  }
+  
+
+  namespace patterns.decorator.pizza {
+    abstract class patterns.decorator.pizza.Pizza {
+    }
+  }
+  
+
+  namespace patterns.decorator.pizza {
+    class patterns.decorator.pizza.PizzaStore {
+    }
+  }
+  
+
+  namespace patterns.decorator.pizza {
+    class patterns.decorator.pizza.ThickCrustPizza {
+    }
+  }
+  
+
+  namespace patterns.decorator.pizza {
+    class patterns.decorator.pizza.ThincrustPizza {
+    }
+  }
+  
+
+  namespace patterns.decorator.pizza {
+    abstract class patterns.decorator.pizza.ToppingDecorator {
+    }
+  }
+  
+
+  namespace patterns.decorator.withinheritance {
+    class patterns.decorator.withinheritance.Cheese {
+    }
+  }
+  
+
+  namespace patterns.decorator.withinheritance {
+    class patterns.decorator.withinheritance.Olives {
+    }
+  }
+  
+
+  namespace patterns.decorator.withinheritance {
+    abstract class patterns.decorator.withinheritance.Pizza {
+    }
+  }
+  
+
+  namespace patterns.decorator.withinheritance {
+    class patterns.decorator.withinheritance.PizzaStore {
+    }
+  }
+  
+
+  namespace patterns.decorator.withinheritance {
+    class patterns.decorator.withinheritance.ThickcrustPizza {
+    }
+  }
+  
+
+  namespace patterns.decorator.withinheritance {
+    class patterns.decorator.withinheritance.ThincrustPizza {
     }
   }
   
@@ -215,7 +371,7 @@ title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
   
 
   namespace patterns.factory {
-    class patterns.factory.FactoryPatternDemo {
+    class patterns.factory.FactoryPatternDemo_Client {
     }
   }
   
@@ -244,8 +400,92 @@ title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
   }
   
 
+  namespace patterns.mvc {
+    class patterns.mvc.Controller {
+    }
+  }
+  
+
+  namespace patterns.mvc {
+    class patterns.mvc.Main {
+    }
+  }
+  
+
+  namespace patterns.mvc {
+    class patterns.mvc.Model {
+    }
+  }
+  
+
+  namespace patterns.mvc {
+    enum TrafficLight {
+    }
+  }
+  
+
+  namespace patterns.mvc {
+    class patterns.mvc.View {
+    }
+  }
+  
+
+  namespace patterns.observer {
+    class patterns.observer.Dobbelsteen {
+    }
+  }
+  
+
+  namespace patterns.observer {
+    class patterns.observer.Main {
+    }
+  }
+  
+
+  namespace patterns.observer {
+    class patterns.observer.aantalOgenView {
+    }
+  }
+  
+
+  namespace patterns.observer {
+    class patterns.observer.argumentView {
+    }
+  }
+  
+
   namespace patterns.singleton {
     class patterns.singleton.CasinoCashier {
+    }
+  }
+  
+
+  namespace patterns.strategy.pattern {
+    class patterns.strategy.pattern.Drawing {
+    }
+  }
+  
+
+  namespace patterns.strategy.pattern {
+    class patterns.strategy.pattern.DrawingController {
+    }
+  }
+  
+
+  namespace patterns.strategy.pattern {
+    interface patterns.strategy.pattern.PersistencyMediator {
+    }
+  }
+  
+
+  namespace patterns.strategy.withinheritance {
+    class patterns.strategy.withinheritance.Drawing {
+    }
+  }
+  
+
+  namespace patterns.strategy.withinheritance {
+    class patterns.strategy.withinheritance.DrawingController {
     }
   }
   
@@ -490,6 +730,10 @@ title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
   }
   
 
+  designprinciples.TomatoSaucePizza -up-|> designprinciples.Pizza
+  fromsheets.drawingcontroller.withMediator.DrawingController o-- fromsheets.drawingcontroller.Drawing : drawing
+  fromsheets.drawingcontroller.withMediator.DrawingController o-- fromsheets.drawingcontroller.withMediator.PersistencyMediator : persistencyMediator
+  fromsheets.drawingcontroller.withoutMediator.DrawingController o-- fromsheets.drawingcontroller.Drawing : drawing
   patterns.abstractfactory.factory1.Circle .up.|> patterns.abstractfactory.IShape
   patterns.abstractfactory.factory1.Rectangle .up.|> patterns.abstractfactory.IShape
   patterns.abstractfactory.factory1.ShapeFactory -up-|> patterns.abstractfactory.AbstractFactory
@@ -498,6 +742,19 @@ title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
   patterns.abstractfactory.factory2.RoundedRectangle .up.|> patterns.abstractfactory.IShape
   patterns.abstractfactory.factory2.RoundedShapeFactory -up-|> patterns.abstractfactory.AbstractFactory
   patterns.abstractfactory.factory2.RoundedSquare .up.|> patterns.abstractfactory.IShape
+  patterns.command.lunchroom.BurgerAndFriesOrder .up.|> patterns.command.lunchroom.Order
+  patterns.command.lunchroom.BurgerAndFriesOrder o-- patterns.command.lunchroom.Kok : kok
+  patterns.command.lunchroom.Klant o-- patterns.command.lunchroom.Order : order
+  patterns.command.lunchroom.Klant o-- patterns.command.lunchroom.Serveerster : serveerster
+  patterns.command.lunchroom.Serveerster o-- patterns.command.lunchroom.Order : order
+  patterns.decorator.pizza.Cheese -up-|> patterns.decorator.pizza.ToppingDecorator
+  patterns.decorator.pizza.Olives -up-|> patterns.decorator.pizza.ToppingDecorator
+  patterns.decorator.pizza.ThickCrustPizza -up-|> patterns.decorator.pizza.Pizza
+  patterns.decorator.pizza.ThincrustPizza -up-|> patterns.decorator.pizza.Pizza
+  patterns.decorator.pizza.ToppingDecorator -up-|> patterns.decorator.pizza.Pizza
+  patterns.decorator.pizza.ToppingDecorator o-- patterns.decorator.pizza.Pizza : pizza
+  patterns.decorator.withinheritance.ThickcrustPizza -up-|> patterns.decorator.withinheritance.Pizza
+  patterns.decorator.withinheritance.ThincrustPizza -up-|> patterns.decorator.withinheritance.Pizza
   patterns.facade.solidoverwegingen.HomeTheater1930 .up.|> patterns.facade.solution.HomeTheaterInterface
   patterns.facade.solidoverwegingen.HomeTheater1930 o-- patterns.facade.solidoverwegingen.ZwengelGrammofoon : grammo
   patterns.facade.solidoverwegingen.HomeTheater1930 o-- patterns.facade.solidoverwegingen.GasLantaarn : licht
@@ -514,6 +771,17 @@ title __OO_DESIGN_PRINCIPLES_SOLIDEXAMPLES's Class Diagram__\n
   patterns.factory.Circle .up.|> patterns.factory.IShape
   patterns.factory.Rectangle .up.|> patterns.factory.IShape
   patterns.factory.Square .up.|> patterns.factory.IShape
+  patterns.mvc.Controller .up.|> java.util.Observer
+  patterns.mvc.Controller o-- patterns.mvc.Model : model
+  patterns.mvc.Controller o-- patterns.mvc.View : ui
+  patterns.mvc.Model -up-|> java.util.Observable
+  patterns.mvc.Model o-- patterns.mvc.TrafficLight : trafficLight
+  patterns.mvc.View o-- patterns.mvc.Controller : controller
+  patterns.observer.Dobbelsteen -up-|> java.util.Observable
+  patterns.observer.aantalOgenView .up.|> java.util.Observer
+  patterns.observer.argumentView .up.|> java.util.Observer
+  patterns.strategy.pattern.DrawingController o-- patterns.strategy.pattern.Drawing : drawing
+  patterns.strategy.withinheritance.DrawingController o-- patterns.strategy.withinheritance.Drawing : drawing
   solid.dependencyinversion.badexample.BusinessLogic o-- solid.dependencyinversion.badexample.DB : database
   solid.dependencyinversion.badexample.BusinessLogic o-- solid.dependencyinversion.badexample.UI : ui
   solid.dependencyinversion.solution.BusinessLogic o-- solid.dependencyinversion.solution.interfaceDB : database

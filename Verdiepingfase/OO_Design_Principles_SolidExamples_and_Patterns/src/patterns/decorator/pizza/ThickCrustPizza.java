@@ -1,8 +1,8 @@
 package patterns.decorator.pizza;
 
-public class ThickcrustPizza extends Pizza {
+public class ThickCrustPizza extends Pizza {
   
-	public ThickcrustPizza() {
+	public ThickCrustPizza() {
 		description = "Thick crust pizza, with tomato sauce";
 	}
   

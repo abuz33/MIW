@@ -15,6 +15,7 @@
         <module>spring-api-docs</module>
         <module>spring-dockerization</module>
         <module>spring-boot-aop</module>
+        <module>spring-graphql</module>
     </modules>
 
     <properties>
