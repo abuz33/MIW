@@ -16,6 +16,8 @@
         <module>spring-dockerization</module>
         <module>spring-boot-aop</module>
         <module>spring-graphql</module>
+        <module>spring-rest-template</module>
+        <module>spring-redis</module>
     </modules>
 
     <properties>

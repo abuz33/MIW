@@ -23,4 +23,9 @@ public class CeilingLight {
     public void DimUp() {
         System.out.println("Ceiling Light dimmed up");
     }
+
+    @Override
+    public String toString() {
+        return "Ceiling Light";
+    }
 }

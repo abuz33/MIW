@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-rest-template" />
         <module name="spring-rabbitmq" />
         <module name="spring-boot-mongo-rest-api" />
         <module name="spring-graphql" />
@@ -15,7 +16,9 @@
         <module name="spring-mongo-rest-api" />
         <module name="spring-elastic-search" />
         <module name="spring-datajpa-postgresql" />
+        <module name="spring-websocket" />
         <module name="spring-dockerization" />
+        <module name="spring-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +37,9 @@
       <module name="spring-graphql" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-rabbitmq" options="-parameters" />
+      <module name="spring-redis" options="-parameters" />
+      <module name="spring-rest-template" options="-parameters" />
+      <module name="spring-websocket" options="-parameters" />
     </option>
   </component>
 </project>

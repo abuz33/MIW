@@ -8,6 +8,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Getter
+@Setter
 @EqualsAndHashCode(of = "id")
 public class PersonDto {
     private Long id;

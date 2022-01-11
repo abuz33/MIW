@@ -36,4 +36,9 @@ public class Stereo {
     public void Turn2Radio() {
         System.out.println("Stereo switches to radio.");
     }
+
+    @Override
+    public String toString() {
+        return "Stereo";
+    }
 }

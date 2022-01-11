@@ -53,7 +53,7 @@ public class PersonService implements IPersonService {
         person.setLastName(personDto.getLastName());
         Person personDb = personRepo.save(person);
         List<Address> list = new ArrayList<>();
-        personDto.getAddresses().forEach(adr -> {
+        personDto.getAddress().forEach(adr -> {
             Address adres = new Address();
             adres.setAddress(adr);
             adres.setAddressType(Address.AddressType.OTHER);
@@ -79,7 +79,7 @@ public class PersonService implements IPersonService {
             personDto.setId(it.getId());
             personDto.setFirstName(it.getFirstName());
             personDto.setLastName(it.getLastName());
-            personDto.setAddresses(it.getAddresses().stream().map(Address::getAddress).collect(Collectors.toList()));
+            personDto.setAddress(it.getAddresses().stream().map(Address::getAddress).collect(Collectors.toList()));
             list.add(personDto);
         });
         return list;

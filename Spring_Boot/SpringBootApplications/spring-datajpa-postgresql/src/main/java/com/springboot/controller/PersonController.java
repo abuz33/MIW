@@ -4,7 +4,6 @@ import com.springboot.dto.PersonDto;
 import com.springboot.service.PersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,7 +15,7 @@ public class PersonController {
     private final PersonService personService;
 
     @PostMapping
-    public ResponseEntity<PersonDto> save(@Validated @RequestBody PersonDto personDto) {
+    public ResponseEntity<PersonDto> save(@RequestBody PersonDto personDto) {
         return ResponseEntity.ok(personService.save(personDto));
     }
 

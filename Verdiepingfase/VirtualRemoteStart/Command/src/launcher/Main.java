@@ -8,6 +8,8 @@ public class Main {
         VirtualRemote remote = new VirtualRemote();
 
         setupRemote(remote);
+
+        System.out.println(remote);
     }
 
     private static void setupRemote(VirtualRemote remote) {

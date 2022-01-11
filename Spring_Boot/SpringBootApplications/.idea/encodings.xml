@@ -11,5 +11,8 @@
     <file url="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-rest-template/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-websocket/src/main/java" charset="UTF-8" />
   </component>
 </project>

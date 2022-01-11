@@ -24,4 +24,13 @@ public class VirtualRemote {
         if (idx < this.knoppen.size() && idx >= 0)
             this.knoppen.set(idx, object);
     }
+
+    @Override
+    public String toString() {
+        StringBuilder s = new StringBuilder();
+        for (Object o : knoppen) {
+            s.append(o.toString()).append("\n");
+        }
+        return s.toString();
+    }
 }
